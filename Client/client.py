@@ -131,6 +131,7 @@ def CloseWindow():
     file.write("Deny")
   window.destroy()
 
+#Tkinter UI setup
 #download file
 DownloadText = tk.Label(window, text = "Download", font = ("Arial", 20))
 serverFileCombobox = ttk.Combobox(window, width = 35, heigh = 10)
